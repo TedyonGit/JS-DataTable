@@ -1,0 +1,326 @@
+<html>
+    <head>
+
+        <title>DataTable</title>
+    <link href="tabler.min.css?1674944402" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="col-12">
+  <form method="post" autocomplete="off">
+    <div class="card">
+      <div class="card-header">
+        <h3 class="card-title">Active Now</h3>
+      </div>
+      <div class="card-body border-bottom py-3">
+        <div class="d-flex">
+          <div class=" text-muted">
+            Search:
+            <div class="ms-2 d-inline-block">
+              <input type="text" id="searchQuery" class="form-control form-control-sm" aria-label="Search invoice">
+            </div>
+          </div>
+          <div class="ms-2 d-inline-block">
+           </div>
+        </div>
+      </div>
+
+      <div class="table-responsive">
+        <table class="table card-table table-vcenter text-nowrap datatable">
+          <thead>
+            <tr>
+              <th class="w-1"><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select all invoices"></th>
+              <th>ID</th>
+              <th>Username</th>
+              <th>Admin</th>
+              <th>api_token</th>
+              <th>date_added</th>
+              <th>invited_by</th>
+              <th></th>
+            </tr>
+          </thead>
+<tbody id="targetTable"><tr>
+              <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
+              <td><span class="text-muted">0</span></td>
+              <td><a href="/admin/profile/Tedy/edit" class="text-reset" tabindex="-1">Tedy</a></td>
+              <td>
+                <span class="badge badge-sm bg-green-lt text-uppercase ms-auto">True</span>
+              </td>
+              <td>
+                2EOkC9bUvRFdLTrz-hRGo9UVb2Mv9feD_tXDwraGXh7yK
+              </td>
+              <td>
+                22:59:42 05-04-2023
+              </td>
+              <td>ADMIN</td>
+              <td class="text-end">
+                <span class="dropdown">
+                  <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+                  <div class="dropdown-menu dropdown-menu-end">
+                    <a class="dropdown-item" href="#">
+                      Action
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      Another action
+                    </a>
+                  </div>
+                </span>
+              </td>
+            </tr><tr>
+              <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
+              <td><span class="text-muted">1</span></td>
+              <td><a href="/admin/profile/Tedy2/edit" class="text-reset" tabindex="-1">Tedy2</a></td>
+              <td>
+                <span class="badge badge-sm bg-green-lt text-uppercase ms-auto">True</span>
+              </td>
+              <td>
+                2EOkC9bUvRFdLTrz-hRGo9UVb2Mv9feD_tXDwraGXh7yK
+              </td>
+              <td>
+                22:59:42 05-04-2023
+              </td>
+              <td>ADMIN</td>
+              <td class="text-end">
+                <span class="dropdown">
+                  <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+                  <div class="dropdown-menu dropdown-menu-end">
+                    <a class="dropdown-item" href="#">
+                      Action
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      Another action
+                    </a>
+                  </div>
+                </span>
+              </td>
+            </tr><tr>
+              <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
+              <td><span class="text-muted">2</span></td>
+              <td><a href="/admin/profile/Tedy3/edit" class="text-reset" tabindex="-1">Tedy3</a></td>
+              <td>
+                 <span class="badge badge-sm bg-red text-uppercase ms-auto">False</span> 
+              </td>
+              <td>
+                2EOkC9bUvRFdLTrz-hRGo9UVb2Mv9feD_tXDwraGXh7yK
+              </td>
+              <td>
+                22:59:42 05-04-2023
+              </td>
+              <td>ADMIN</td>
+              <td class="text-end">
+                <span class="dropdown">
+                  <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+                  <div class="dropdown-menu dropdown-menu-end">
+                    <a class="dropdown-item" href="#">
+                      Action
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      Another action
+                    </a>
+                  </div>
+                </span>
+              </td>
+            </tr><tr>
+              <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
+              <td><span class="text-muted">3</span></td>
+              <td><a href="/admin/profile/Tedy4/edit" class="text-reset" tabindex="-1">Tedy4</a></td>
+              <td>
+                <span class="badge badge-sm bg-green-lt text-uppercase ms-auto">True</span>
+              </td>
+              <td>
+                2EOkC9bUvRFdLTrz-hRGo9UVb2Mv9feD_tXDwraGXh7yK
+              </td>
+              <td>
+                22:59:42 05-04-2023
+              </td>
+              <td>ADMIN</td>
+              <td class="text-end">
+                <span class="dropdown">
+                  <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+                  <div class="dropdown-menu dropdown-menu-end">
+                    <a class="dropdown-item" href="#">
+                      Action
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      Another action
+                    </a>
+                  </div>
+                </span>
+              </td>
+            </tr><tr>
+              <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
+              <td><span class="text-muted">4</span></td>
+              <td><a href="/admin/profile/Tedy5/edit" class="text-reset" tabindex="-1">Tedy5</a></td>
+              <td>
+                <span class="badge badge-sm bg-green-lt text-uppercase ms-auto">True</span>
+              </td>
+              <td>
+                2EOkC9bUvRFdLTrz-hRGo9UVb2Mv9feD_tXDwraGXh7yK
+              </td>
+              <td>
+                22:59:42 05-04-2023
+              </td>
+              <td>ADMIN</td>
+              <td class="text-end">
+                <span class="dropdown">
+                  <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+                  <div class="dropdown-menu dropdown-menu-end">
+                    <a class="dropdown-item" href="#">
+                      Action
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      Another action
+                    </a>
+                  </div>
+                </span>
+              </td>
+            </tr><tr>
+              <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
+              <td><span class="text-muted">5</span></td>
+              <td><a href="/admin/profile/Tedy6/edit" class="text-reset" tabindex="-1">Tedy6</a></td>
+              <td>
+                <span class="badge badge-sm bg-green-lt text-uppercase ms-auto">True</span>
+              </td>
+              <td>
+                2EOkC9bUvRFdLTrz-hRGo9UVb2Mv9feD_tXDwraGXh7yK
+              </td>
+              <td>
+                22:59:42 05-04-2023
+              </td>
+              <td>ADMIN</td>
+              <td class="text-end">
+                <span class="dropdown">
+                  <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+                  <div class="dropdown-menu dropdown-menu-end">
+                    <a class="dropdown-item" href="#">
+                      Action
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      Another action
+                    </a>
+                  </div>
+                </span>
+              </td>
+            </tr><tr>
+              <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
+              <td><span class="text-muted">6</span></td>
+              <td><a href="/admin/profile/Tedy7/edit" class="text-reset" tabindex="-1">Tedy7</a></td>
+              <td>
+                <span class="badge badge-sm bg-green-lt text-uppercase ms-auto">True</span>
+              </td>
+              <td>
+                2EOkC9bUvRFdLTrz-hRGo9UVb2Mv9feD_tXDwraGXh7yK
+              </td>
+              <td>
+                22:59:42 05-04-2023
+              </td>
+              <td>ADMIN</td>
+              <td class="text-end">
+                <span class="dropdown">
+                  <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+                  <div class="dropdown-menu dropdown-menu-end">
+                    <a class="dropdown-item" href="#">
+                      Action
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      Another action
+                    </a>
+                  </div>
+                </span>
+              </td>
+            </tr><tr>
+              <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
+              <td><span class="text-muted">7</span></td>
+              <td><a href="/admin/profile/Tedy8/edit" class="text-reset" tabindex="-1">Tedy8</a></td>
+              <td>
+                <span class="badge badge-sm bg-green-lt text-uppercase ms-auto">True</span>
+              </td>
+              <td>
+                2EOkC9bUvRFdLTrz-hRGo9UVb2Mv9feD_tXDwraGXh7yK
+              </td>
+              <td>
+                22:59:42 05-04-2023
+              </td>
+              <td>ADMIN</td>
+              <td class="text-end">
+                <span class="dropdown">
+                  <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+                  <div class="dropdown-menu dropdown-menu-end">
+                    <a class="dropdown-item" href="#">
+                      Action
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      Another action
+                    </a>
+                  </div>
+                </span>
+              </td>
+            </tr><tr>
+              <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
+              <td><span class="text-muted">8</span></td>
+              <td><a href="/admin/profile/Tedy9/edit" class="text-reset" tabindex="-1">Tedy9</a></td>
+              <td>
+                <span class="badge badge-sm bg-green-lt text-uppercase ms-auto">True</span>
+              </td>
+              <td>
+                2EOkC9bUvRFdLTrz-hRGo9UVb2Mv9feD_tXDwraGXh7yK
+              </td>
+              <td>
+                22:59:42 05-04-2023
+              </td>
+              <td>ADMIN</td>
+              <td class="text-end">
+                <span class="dropdown">
+                  <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+                  <div class="dropdown-menu dropdown-menu-end">
+                    <a class="dropdown-item" href="#">
+                      Action
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      Another action
+                    </a>
+                  </div>
+                </span>
+              </td>
+            </tr><tr>
+              <td><input class="form-check-input m-0 align-middle" type="checkbox" aria-label="Select invoice"></td>
+              <td><span class="text-muted">9</span></td>
+              <td><a href="/admin/profile/Tedy10/edit" class="text-reset" tabindex="-1">Tedy10</a></td>
+              <td>
+                <span class="badge badge-sm bg-green-lt text-uppercase ms-auto">True</span>
+              </td>
+              <td>
+                2EOkC9bUvRFdLTrz-hRGo9UVb2Mv9feD_tXDwraGXh7yK
+              </td>
+              <td>
+                22:59:42 05-04-2023
+              </td>
+              <td>ADMIN</td>
+              <td class="text-end">
+                <span class="dropdown">
+                  <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+                  <div class="dropdown-menu dropdown-menu-end">
+                    <a class="dropdown-item" href="#">
+                      Action
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      Another action
+                    </a>
+                  </div>
+                </span>
+              </td>
+            </tr></tbody>
+        </table>
+      </div>
+      <div class="card-footer d-flex align-items-center">
+        <!--                     <p class="m-0 text-muted">Showing <span>1</span> to <span>8</span> of <span>16</span> entries</p> -->
+          <button type="submit" class="btn align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+        <ul class="pagination m-0 ms-auto" id="pageListing">
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        </ul>
+      </div>
+    </div>
+      </form>
+</div>
+<script src="script.js" defer></script>
+    </body>
+</html>
